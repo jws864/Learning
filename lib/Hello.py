@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # hey it's me :)
 # Jutin Simms and my email and shit
+=======
+>>>>>>> master
 import sys
 from greeter import Greeter
 
