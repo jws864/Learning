@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 # hey it's me :)
 # Jutin Simms and my email and shit
-=======
->>>>>>> master
-import sys
 from greeter import Greeter
 
-name = sys.argv[1] if len(sys.argv) > 1 else 'World'
-greeter = Greeter(name)
-print greeter.greet()
+my_name = raw_input("What's your name")
+
+greeter = Greeter(my_name)
+print(greeter.greet())
