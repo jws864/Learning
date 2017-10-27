@@ -1,6 +1,3 @@
-import sys
-from greeter import Greeter
+my_name = raw_input("What's your name")
 
-name = sys.argv[1] if len(sys.argv) > 1 else 'World'
-greeter = Greeter(name)
-print greeter.greet()
+print("Hello, %s!" % my_name)
